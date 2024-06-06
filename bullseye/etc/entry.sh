@@ -113,8 +113,8 @@ eval "./cs2" -dedicated \
         "${SV_SETSTEAMACCOUNT_ARGS}" \
         +sv_password "${CS2_PW}" \
         +sv_lan "${CS2_LAN}" \
-	#+host_workshop_map "${CS2_HOST_WORKSHOP_MAP}"\
-        +host_workshop_collection "${CS2_HOST_WORKSHOP_COLLECTION}"\
+	+host_workshop_map "${CS2_HOST_WORKSHOP_MAP}"\
+        #+host_workshop_collection "${CS2_HOST_WORKSHOP_COLLECTION}"\
         "${CS2_ADDITIONAL_ARGS}"
 
 # Post Hook
